@@ -1,35 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./homepageStylesheet.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-    <!-- USED WHEN ONLINE   -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-    <!-- USED WHEN OFFLINE -->
-    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
+    <title>Blog Post - Start Bootstrap Template</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="./css/homepageStylesheet.css" rel="stylesheet" />
   </head>
 
-  <!-- BODY STARTS HERE -->
-
-  <body style="background-color:antiquewhite">
+  <body style="background-color: antiquewhite">
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-sm mynav navbar-light">
       <a class="navbar-brand" href="#">Logo_Placeholder</a>
 
@@ -44,19 +34,19 @@
 
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="signin.html">signin</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="recipes.html">Recipes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="log_in.html">Log In</a>
           </li>
-          <!-- MAKE LOGIN BUTTON SEPARARTE -->
+
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
@@ -76,272 +66,249 @@
       </div>
     </nav>
 
-    <div class="text-center container-1">
-      <!-- USE ANOTHER FONT HERE LATER -->
-      <h1>Categories</h1>
-    </div>
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <!-- Post Content Column -->
+        <div class="col-lg-8">
+          <!-- Title -->
+          <h1 class="mt-4">Best Ever Chocolate Cake</h1>
 
-    <!-- CIRCLES -->
+          <hr />
 
-    <div class="d-flex flex-row flex-wrap myCircles">
-      <div class="m flex-column">
-        <img
-          src="./images/cake.jpg"
-          class="myCircularPictures rounded-circle"
-          alt="Circular picture"
-        />
-        <br />
-        <a href="cakes.html"><h4 align="center">cakes</h4></a>
-      </div>
-      <div class="m flex-column">
-        <img
-          src="./images/cupcake.jpg"
-          class="myCircularPictures rounded-circle"
-          alt="Circular picture"
-        />
-        <br />
-        <a href="cupcakes.html"><h4 align="center">cupcakes</h4></a>
-      </div>
-      <div class="m flex-column">
-        <img
-          src="./images/cookie.jpg"
-          class="myCircularPictures rounded-circle"
-          alt="Circular picture"
-        />
-        <br />
-        <a href="best_cookies.html"><h4 align="center">best cookies</h4></a>
-      </div>
-      <div class="m flex-column">
-        <img
-          src="./images/kawaii_dessert.jpg"
-          class="myCircularPictures rounded-circle"
-          alt="Circular picture"
-        />
-        <br />
-        <a href="kawaii_desserts.html"
-          ><h4 align="center">kawaii desserts</h4></a
-        >
-      </div>
-      <div class="m flex-column">
-        <img
-          src="./images/frozen_dessert.jpg"
-          class="myCircularPictures rounded-circle"
-          alt="Circular picture"
-        />
-        <br />
-        <a href="frozen_desserts.html"
-          ><h4 align="center">frozen desserts</h4></a
-        >
-      </div>
-      <div class="m flex-column">
-        <img
-          src="./images/vegan_dessert.jpg"
-          class="myCircularPictures rounded-circle"
-          alt="Circular picture"
-        />
-        <br />
-        <a href="vegan_desserts.html"><h4 align="center">vegan desserts</h4></a>
-      </div>
-    </div>
+          <!-- Date/Time -->
+          <p>Posted on January 1, 2019 at 12:00 PM</p>
 
-    <div class="text-center container-1">
-      <!-- USE ANOTHER FONT HERE LATER -->
-      <h1>Featured Recipes</h1>
-    </div>
+          <hr />
 
-    <div
-      class="d-flex justify-content-center flex-row flex-wrap myFeaturedRecipes"
-    >
-      <div class="flex-column">
-        <div class="card featuredRecipe" style="width: 21rem; height: 30rem;">
+          <!-- Preview Image -->
           <img
-            class="card-img-top"
+            class="img-fluid rounded"
             src="./images/best_chocolate_cake.jpg"
-            height="350"
-            width="345px"
-            alt="Card image cap"
+            alt=""
           />
-          <div class="card-body">
-            <h5 class="card-title">Best Ever Chocolate Cake</h5>
-            <a href="best_ever_chocolate_cake.html" class="card-link"
-              >Full recipe here</a
-            >
-          </div>
-        </div>
-      </div>
 
-      <div class="flex-column">
-        <div class="card featuredRecipe" style="width: 21rem; height: 30rem;">
-          <img
-            class="card-img-top"
-            src="./images/berry_tiramisu.jpg"
-            height="350"
-            width="345px"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Very Berry Tiramisu</h5>
-            <a href="berry_tiramisu.html" class="card-link">Full recipe here</a>
-          </div>
-        </div>
-      </div>
+          <hr />
 
-      <div class="flex-column">
-        <div class="card featuredRecipe" style="width: 21rem; height: 30rem;">
-          <img
-            class="card-img-top"
-            src="./images/trash_can_cookies.jpg"
-            height="350"
-            width="345px"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Trash Can cookies</h5>
-            <a href="#" class="card-link">Full recipe here</a>
-          </div>
-        </div>
-      </div>
+          <!-- Post Content -->
+          <p>
+            I have been searching for a great chocolate cake recipe for years. I have found it. My search has ended. I now have THE recipe. If you have ever seen the movie Matilda you will surely remember the scene where the boy is forced to eat the most delicious looking chocolate cake ever. I feel just like that boy when I eat this cake. It is my Matilda chocolate cake for sure.
+          </p>
 
-      <div class="flex-column">
-        <div class="card featuredRecipe" style="width: 21rem; height: 30rem;">
-          <img
-            class="card-img-top"
-            src="./images/coffee_caramel_cupcake.jpg"
-            height="350"
-            width="345px"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Coffee Caramel Cupcake</h5>
-            <a href="#" class="card-link">Full recipe here</a>
-          </div>
-        </div>
-      </div>
+          <p>
+            This cake is moist and has the perfect crumb. I cannot imagine making a chocolate cake using any other recipe. It is so easy to make and puts doctored cake mix recipes to shame. I’m eating a piece of the cake as I’m writing this, drooling all over my keyboard. It is insanely delicious. A decades search was worth the wait. Every…decadent…bite. Who wants cake?
+          </p>
 
-      <div class="flex-column">
-        <div class="card featuredRecipe" style="width: 21rem; height: 30rem;">
-          <img
-            class="card-img-top"
-            src="./images/baklava.jpg"
-            height="350"
-            width="345px"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Baklava</h5>
-            <a href="#" class="card-link">Full recipe here</a>
-          </div>
-        </div>
-      </div>
+          <p>
+            I have been searching for a great chocolate cake recipe for years. I have found it. My search has ended. I now have THE recipe. If you have ever seen the movie Matilda you will surely remember the scene where the boy is forced to eat the most delicious looking chocolate cake ever. I feel just like that boy when I eat this cake. It is my Matilda chocolate cake for sure.
+          </p>
+            
 
-      <div class="flex-column">
-        <div class="card featuredRecipe" style="width: 21rem; height: 30rem;">
-          <img
-            class="card-img-top"
-            src="./images/rainbow_waffles.jpg"
-            height="350"
-            width="345px"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Mini Kawaii Rainbow Waffles</h5>
-            <a href="#" class="card-link">Full recipe here</a>
-          </div>
-        </div>
-      </div>
+          <p>
+            This cake is moist and has the perfect crumb. I cannot imagine making a chocolate cake using any other recipe. It is so easy to make and puts doctored cake mix recipes to shame. I’m eating a piece of the cake as I’m writing this, drooling all over my keyboard. It is insanely delicious. A decades search was worth the wait. Every…decadent…bite. Who wants cake?
+          </p>
 
-      <div class="flex-column">
-        <div class="card featuredRecipe" style="width: 21rem; height: 30rem;">
-          <img
-            class="card-img-top"
-            src="./images/icecream.jpg"
-            height="350"
-            width="345px"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Six Best Icecream Flavors(All Homemade)</h5>
-            <a href="#" class="card-link">Full recipe here</a>
-          </div>
-        </div>
-      </div>
+          <p>
+            I have been searching for a great chocolate cake recipe for years. I have found it. My search has ended. I now have THE recipe. If you have ever seen the movie Matilda you will surely remember the scene where the boy is forced to eat the most delicious looking chocolate cake ever. I feel just like that boy when I eat this cake. It is my Matilda chocolate cake for sure.
+          </p>
 
-      <div class="flex-column">
-        <div class="card featuredRecipe" style="width: 21rem; height: 30rem;">
-          <img
-            class="card-img-top"
-            src="./images/ooey_gooey_brownie.jpg"
-            height="350"
-            width="345px"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Ooey Gooey Brownies</h5>
-            <a href="#" class="card-link">Full recipe here</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+          <hr />
+          <!-- RECIPE HERE -->
 
-    <div class="mySummary jumbotron">
-      <div class="d-flex flex-row flex-wrap justify-content-center">
-        <div class="flex-column align-content-center mySummary">
-          <div class="container">
+          <div class="recipe">
+            <h5>
+              <strong>BEST EVER CHOCOLATE CAKE</strong>
+            </h5>
+            <div>
+              <!--<p>First put the name. THen put the Of. Then put the REcipe</p> -->
+              <p>Ingredients : </p> 
+              <ul>
+                <li>3 cups flour</li>
+                <li>3 cups sugar</li>
+                <li>3 cups sugar</li>
+                <li>1 1/2 cup cocoa powder</li>
+                <li>1 tbap baking soda</li>
+                <li>1 1/2 tsp baking powder</li>
+                <li>4 large eggs</li>
+                <li>1 1/2 cup buttermilk</li>
+                <li>1 1/2 cup vegetable oil</li>
+              </ul>
+              <p>Steps : </p>
+              <ol>
+                <li>Preheat oven to 350 degrees. Butter three 9-inch cake rounds. Dust with flour and tap out the excess.Preheat oven to 350 degrees. Butter three 9-inch cake rounds. Dust with flour and tap out the excess.</li>
+                <li>Mix together flour, sugar, cocoa, baking soda, baking powder, and salt in a stand mixer using a low speed until combined.</li>
+                <li>Add eggs, buttermilk, warm water, oil, and vanilla. Beat on a medium speed until smooth. This should take just a couple of minutes.</li>
+                <li>Divide batter among the three pans. I found that it took just over 3 cups of the batter to divide it evenly.</li>
+                <li>Bake for 30-35 minutes until a toothpick inserted into the center comes out clean.</li>
+              </ol>
+            </div>
+          </div>
+
+          <!-- Comments Form -->
+          <div class="card my-4">
+            <h5 class="card-header">Leave a Comment:</h5>
+            <form id="commentForm">
+              <div class="card-body">
+                <form id="myForm">
+                  <input type="text" name="fname" id="name" /><br /><br />
+
+                  <div class="form-group">
+                    <!-- <input type="text" name="fmessage" id="message" /> -->
+                    <textarea class="form-control" name="fmessage" id="message" rows="3"></textarea>
+                    
+                  </div>
+                  <!--<button type="submit" class="btn btn-primary">Submit</button>-->
+                  <button type="submit">Submit</button><br /><br />
+                  <button type="reset">Reset</button>
+                </form>
+              </div>
+            </div>
+          </form>
+
+          <!-- Single Comment -->
+          <div class="media mb-4">
             <img
-              src="./images/naomi.jpg"
-              class="rounded-circle my-picture-circle"
-              alt="Profile Picture"
+              class="d-flex mr-3 rounded-circle"
+              src="http://placehold.it/50x50"
+              alt=""
             />
+            <div class="media-body">
+              <h5 class="mt-0">Commenter Name</h5>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+              scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+              vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+              nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </div>
+          </div>
+
+          <!-- Comment with nested comments -->
+          <div class="media mb-4">
+            <img
+              class="d-flex mr-3 rounded-circle"
+              src="http://placehold.it/50x50"
+              alt=""
+            />
+            <div class="media-body">
+              <h5 class="mt-0">Commenter Name</h5>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+              scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+              vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+              nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+              <div class="media mt-4">
+                <img
+                  class="d-flex mr-3 rounded-circle"
+                  src="http://placehold.it/50x50"
+                  alt=""
+                />
+                <div class="media-body">
+                  <h5 class="mt-0">Commenter Name</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                  nisi vulputate fringilla. Donec lacinia congue felis in
+                  faucibus.
+                </div>
+              </div>
+
+              <div class="media mt-4">
+                <img
+                  class="d-flex mr-3 rounded-circle"
+                  src="http://placehold.it/50x50"
+                  alt=""
+                />
+                <div class="media-body">
+                  <h5 class="mt-0">Commenter Name</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                  nisi vulputate fringilla. Donec lacinia congue felis in
+                  faucibus.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="flex-column align-content-center mySummary mySummaryText">
-          <div class="container">
-            <h3>About Naomi...</h3>
-            <br />
-            <h4>
-              Hi Bakers! I am Tasnim Rahman Naomi from Bangladesh and very much
-              passionate about baking. I may not be the best chef but I am here
-              to share with you my years of baking experience and the recipes i
-              find to be the best after giving them a number of trials and
-              errors. Happy Baking Everyone!
-            </h4>
-            <br />
-            <a
-              href="about.html"
-              class="btn-lg btn-success btn-primary"
-              role="button"
-              >More about Naomi..</a
-            >
-            <br />
-            <br />
-            <br />
-          </div>
-        </div>
-      </div>
-
-      <div class="d-flex flex-row flex-wrap justify-content-center signUpBox">
-        <div class="flex-column align-content-center mySummary">
-          <div class="container-fluid">
-            <form>
-              <label for="ex3"><h4>Sign up for our newsletter</h4> </label>
-              <br />
-              <input
-                id="signUpTextBox"
-                placeholder="Enter your email here"
-                type="email"
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4">
+          <!-- Search Widget -->
+          <br />
+          <br />
+          <h4><b>Welcome to my baking blog!</b></h4>
+          <div class="d-flex flex-row flex-wrap">
+            <div class="flex-column">
+              <img
+                src="./images/naomi1.jpeg"
+                class="myCircularPictures rounded-circle"
               />
-            </form>
+            </div>
+            <div class="flex-column">
+              <h5>
+                Hi! I am Naomi and I am here to present you some delicious
+                recipes.
+              </h5>
+              <br />
+              <a href="about.html" class="btn-lg btn-primary" role="button"
+                >More about Naomi..</a
+              >
+            </div>
+          </div>
+          <div class="card my-4" style="background-color: pink">
+            <h5 class="card-header">Sign up for newsletter</h5>
+            <div class="card-body">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Categories Widget -->
+          <div class="card my-4" style="background-color: pink">
+            <h5 class="card-header">Categories</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="cakes.html">Cakes</a>
+                    </li>
+                    <li>
+                      <a href="cupcakes.html">Cupcakes</a>
+                    </li>
+                    <li>
+                      <a href="best_cookies.html">Best Cookies</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="kawaii_desserts.html">Kawaii Desserts</a>
+                    </li>
+                    <li>
+                      <a href="frozen_desserts.html">Frozen Desserts</a>
+                    </li>
+                    <li>
+                      <a href="vegan_desserts.html">Vegan Desserts</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- ADD FOOTER HERE -->
+
+    <!-- Footer -->
     <footer id="footer" class="footer-1">
       <div class="main-footer widgets-dark typo-light">
         <div class="container">
@@ -480,6 +447,12 @@
         </div>
       </div>
     </footer>
-    <script src="main.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase.js"></script>
+    <script src="main1.js"></script>
   </body>
 </html>

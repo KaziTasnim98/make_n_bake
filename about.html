@@ -47,19 +47,19 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Recipes</a>
+          <li class="nav-item">
+            <a class="nav-link" href="recipes.html">Recipes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Subscribe</a>
+            <a class="nav-link" href="contact.html">Subscribe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <!-- MAKE LOGIN BUTTON SEPARARTE -->
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
         </ul>
         <div class="search-container d-flex flex-row flex-nowrap">
           <form class="form-inline" action="/action_page.php">
@@ -76,8 +76,33 @@
       </div>
     </nav>
 
-    <div class="jumbotron fonty">
-      <h1 class="display-4">Meet Naomi!</h1>
+    <div class="jumbotron" style="background-color: pink">
+      <div class="d-flex flex-row flex-wrap">
+        <div class="flex-column">
+          <h1 class="display-4">Meet Naomi!</h1>
+        </div>
+        <div class="flex-column pos">
+          <div
+            class="d-flex flex-row flex-wrap justify-content-center signUpBox"
+          >
+            <div class="flex-column align-content-center mySummary">
+              <div class="container-fluid">
+                <br />
+                <br />
+                <form>
+                  <label for="ex3"><h4>Sign up for our newsletter</h4> </label>
+                  <br />
+                  <input
+                    id="signUpTextBox"
+                    placeholder="Enter your email here"
+                    type="email"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="d-flex flex-row flex-wrap aboutme justify-content-center">
@@ -110,6 +135,9 @@
             autem consequatur tenetur quia expedita, tempore cupiditate omnis
             voluptate. s
           </p>
+        </h5>
+        <h5>
+          <a href="contact.html">Contact with us</a>
         </h5>
       </div>
     </div>
